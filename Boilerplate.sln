@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boilerplate.CMS", "Boilerpl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boilerplate.Utility", "Boilerplate.Utility\Boilerplate.Utility.csproj", "{AA831D7C-D508-4108-9932-A91130F5696C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boilerplate.Api", "Boilerplate.Api\Boilerplate.Api.csproj", "{0E1D2C30-2D8C-4CDB-B643-F09E7DCE168B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{AA831D7C-D508-4108-9932-A91130F5696C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA831D7C-D508-4108-9932-A91130F5696C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA831D7C-D508-4108-9932-A91130F5696C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E1D2C30-2D8C-4CDB-B643-F09E7DCE168B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E1D2C30-2D8C-4CDB-B643-F09E7DCE168B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E1D2C30-2D8C-4CDB-B643-F09E7DCE168B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E1D2C30-2D8C-4CDB-B643-F09E7DCE168B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
