@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
+﻿using System.Collections.Generic;
 using System.Web.Http;
 
 namespace Boilerplate.Api.Controllers
 {
-    public class ValuesController : ApiController
+    public class ValuesController : BaseApiController
     {
         // GET api/values
         public IEnumerable<string> Get()
@@ -18,7 +14,7 @@ namespace Boilerplate.Api.Controllers
         // GET api/values/5
         public string Get(int id)
         {
-            return "value";
+            return id.ToString();
         }
 
         // POST api/values
